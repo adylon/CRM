@@ -1,6 +1,5 @@
 # CRM
-This is a customer relations management software for managing company customer information
+This is a customer relations management software for an e-commerce company 
 
-
-# Features:
+### Features:
 - 
