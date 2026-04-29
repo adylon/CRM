@@ -2560,7 +2560,7 @@ while True:
     print('                                           Please Wait.....\n')
     time.sleep(3)
 
-    if usr_tic == 'jonathan@rocstor.com' and pass_tic == 'Je2744465314139':
+    if usr_tic == '' and pass_tic == '':
         print(figlet_format('    Welcome ' + usr_tic[:-12].upper() + '\n', font='bulbhead', width=200))
         time.sleep(4)
         print(figlet_format('===========================================================\n', font='digital', width=200))
