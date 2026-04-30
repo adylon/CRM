@@ -27,8 +27,9 @@ python etickets.py
 - You can filter for specific dates above the item option box
 - Click search
 
+<img src="invimg.png" width="400">
 
-
+- Click menu to see the following:
 
 
 
