@@ -31,7 +31,10 @@ python etickets.py
 
 - Click menu to see the following:
 
+<img src="invm.png" width="400">
 
-
+##### Add Hard Drive to Inventory:
+- Enter hard drive information and click, "Add Drive" to submit to local database
+- Click, "Main Menu" to return back to hard drive menu
 
 
