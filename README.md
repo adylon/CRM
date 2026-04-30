@@ -2,10 +2,10 @@
 This is a customer relations management software for an e-commerce company 
 
 ### Features:
-- local db file
+- Data stored in local database
 - Inventory management
-- RMA tab for entries, entry dislay, along with search query
-- Entry for UPC numbers and display
+- Tab for entering RMA information
+- Entry and display for UPC and labels
 
 ### Installation:
 ```bash
@@ -16,4 +16,4 @@ python etickets.py
 
 ### Usage:
 - When you run script you will be brought to main menu with tabs displayed: Inventory, RMA, and UPC & Labels:
-<img src="rochm.png" width="200" alt="Description">
+<img src="rochm.png" width="400">
