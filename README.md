@@ -1,8 +1,8 @@
 # CRM
-This is a customer relations management software for an e-commerce company 
+This is a customer relations management software for an e-commerce business
 
 ### Issue:
-The company I was working for was using an open source ticketing system called, "open ticket". Unfortunately, it lacked to display important information regading some products, such as; firmeware numbers, type, size, connection, capacity, and UPC numbers. Records of customer RMA's were kept in an excel sheet. Also, we would temporarily use some of the hard drives from inventory for testing, but had no record of the hard drives being checked out or checked in.
+I was working with this e-commerce that produced RAID units, cables, server racks, and more. For managing customer info, inverntory, shipping, and work orders we use an open source ticketing system called, "open ticket". Unfortunately, it lacked to display important information regading some products, such as; firmeware numbers, type, size, connection, capacity, and UPC numbers. Records of customer RMA's were kept in an excel sheet. At times we would temporarily use the hard drives from inventory for testing, but had no record of the hard drives being checked out or checked in. 
 
 ### Features:
 - GUI interface
@@ -45,7 +45,7 @@ python etickets.py
 <img src="dhd.png" width="400">
 
 ##### Check Out Hard Drive:
-- Input serial number followed the option box. Choose to check in or out the hard drives. Enter the serial number then click submit.
+- Input serial number followed the option box. Choose to check in or out the hard drives. Enter the serial number then click submit
 
 <img src="cohd.png" width="400">
 
@@ -56,4 +56,10 @@ python etickets.py
 <img src="rmaimg.png" width="400">
 
 ##### UPC & Labels:
+- On the left side of the page, insert information regarding RAID unit built for shipment. Click submit when finished. 
+- To see RAID unit inventory use the search query on the right side. Add information in the entry box that corresponds with the option box on the left side of the entry box.
+
+<img src="upcimg.png" width="400">
+
+##### Create Label:
 - 
