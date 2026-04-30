@@ -42,5 +42,11 @@ python etickets.py
 ##### Delete Hard Drive from Inventory:
 - Enter hard drive serial number and then click delete from local database
 
+<img src="dhd.png" width="400">
+
 ##### Check Out Hard Drive:
-- Input serial number followed the option box. Choose to check in or out the hard drives. Enter the serial number then click submit. 
+- Input serial number followed the option box. Choose to check in or out the hard drives. Enter the serial number then click submit.
+
+<img src="cohd.png" width="400">
+
+##### RMA:
