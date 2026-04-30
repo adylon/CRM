@@ -15,4 +15,4 @@ python etickets.py
 ```
 
 ### Usage:
-- 
+- When you run script you will be brought to main menu with tabs displayed: Inventory, RMA, and UPC & Labels:
