@@ -1,15 +1,15 @@
 # CRM
-This is a customer relations management software for an e-commerce business
+Customer relations management software for an e-commerce business
 
 ### Issue:
-I was working with this e-commerce that produced RAID units, cables, server racks, and more. For managing customer info, inverntory, shipping, and work orders we use an open source ticketing system called, "open ticket". Unfortunately, it lacked in performance for specific tasks and to display important information regading some products, such as; firmeware numbers, type, size, connection, capacity, and UPC numbers. Records of customer RMA's were kept in an excel sheet that was not sorted properly making it difficult to refer back to any repair records. At times we would temporarily use the hard drives from inventory for testing, but had no record of the hard drives being checked out or checked in. Creating labels for produtcs was done in a seperate program that needed to be done manually by choosing the template and importing .xslx to fill in data for label.
+I was working with an e-commerce that produced RAID units, cables, server racks, and more. For managing customer information, inventory, shipping, and work orders we use an open source ticketing system called, "open ticket". Unfortunately, it lacked in performance for specific tasks and to display important information regarding some products, such as; firmeware numbers, type, size, connection, capacity, and UPC numbers. Records of customer RMA's were kept in an excel sheet that was not sorted properly making it difficult to refer back to any repair records. At times we would temporarily use the hard drives from inventory for testing, but had no record of the hard drives being checked out or checked in. Creating labels for produtcs was done in a seperate program that needed to be done manually by choosing the template and importing .xslx to fill in data for label.
 
 ### Features:
 - GUI interface
 - Data stored in local database
 - Inventory management for hard drives
-- RMA entry and display
-- UPC entry and display
+- RMA page
+- UPC page
 
 ### Installation:
 ```bash
@@ -40,12 +40,12 @@ python etickets.py
 <img src="img/ahd.png" width="400">
 
 ##### Delete Hard Drive from Inventory:
-- Enter hard drive serial number and then click delete from local database.
+- Enter hard drive serial number and then click delete, removing hard drive data from local database.
 
 <img src="img/dhd.png" width="400">
 
 ##### Check Out Hard Drive:
-- Input serial number followed the option box. Choose to check in or out the hard drives. Enter the serial number then click submit.
+- Input serial number in the entry box. Use the option box to check in or out any hard drives for testing. Click submit when finished followed by display of hard drives still in invertory.
 
 <img src="img/cohd.png" width="400">
 
@@ -62,10 +62,6 @@ python etickets.py
 <img src="img/upcimg.png" width="400">
 
 ##### Create Label:
-- This page is for creating labels for shipment. Choose the brand of hard drives stored in RAID unit using the option box on the top middle of the page. Enter the part and serial number in the entry boxes and click enter when complete. Followed by a display of the label contents.
+- This page is for creating labels for shipment. Choose the brand of hard drives stored in RAID unit. Using the option box on the top middle of the page, enter the part and serial number in the entry boxes and click enter when complete. Followed by display of the label contents.
 
 <img src="img/cl.png" width="400">
-
-
-<img src="cl.png" width="400">
-
