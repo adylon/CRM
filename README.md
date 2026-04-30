@@ -50,3 +50,10 @@ python etickets.py
 <img src="cohd.png" width="400">
 
 ##### RMA:
+- Enter customer RMA information followed by submit button
+- Use search query in the bottom of the page according to option box, then click search
+
+<img src="rmaimg.png" width="400">
+
+##### UPC & Labels:
+- 
