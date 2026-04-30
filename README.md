@@ -2,7 +2,7 @@
 This is a customer relations management software for an e-commerce company 
 
 ### Issue:
-The company I was working for was using an open source ticketing system called, "open ticket". Unfortunately, it lacked to display important information regading some products, such as; firmeware numbers, type, size, connection, capacity, and UPC numbers. Records of customer RMA's were kept in an excel sheet. 
+The company I was working for was using an open source ticketing system called, "open ticket". Unfortunately, it lacked to display important information regading some products, such as; firmeware numbers, type, size, connection, capacity, and UPC numbers. Records of customer RMA's were kept in an excel sheet. Also, we would temporarily use some of the hard drives from inventory for testing, but had no record of the hard drives being checked out or checked in.
 
 ### Features:
 - GUI interface
@@ -37,4 +37,10 @@ python etickets.py
 - Enter hard drive information and click, "Add Drive" to submit to local database
 - Click, "Main Menu" to return back to hard drive menu
 
+<img src="ahd.png" width="400">
 
+##### Delete Hard Drive from Inventory:
+- Enter hard drive serial number and then click delete from local database
+
+##### Check Out Hard Drive:
+- Input serial number followed the option box. Choose to check in or out the hard drives. Enter the serial number then click submit. 
