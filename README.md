@@ -8,7 +8,11 @@ This is a customer relations management software for an e-commerce company
 - Entry for UPC numbers and display
 
 ### Installation:
-##### -bash
-- git clone https://github.com/yourusername/project-name.git
-- cd project-name
-- python etickets.py
+```bash
+git clone https://github.com/yourusername/project-name.git
+cd crm
+python etickets.py
+```
+
+### Usage:
+- 
