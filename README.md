@@ -6,7 +6,7 @@ I was working with an e-commerce that produced RAID units, cables, server racks,
 
 ### Features:
 - GUI interface
-- Data stored in local database
+- Data stored in local database file
 - Inventory management for hard drives
 - RMA page
 - UPC page
